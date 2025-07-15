@@ -1,0 +1,7 @@
+replicaCount: 2
+image: "nginxdemos/hello:plain-text"
+
+# Configurações de conexão que serão sobrescritas pelo chart pai (o Umbrella)
+redis:
+  host: "redis-placeholder" # Valor padrão que será substituído
+  port: 6379

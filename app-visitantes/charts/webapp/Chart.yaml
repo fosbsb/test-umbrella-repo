@@ -1,0 +1,5 @@
+apiVersion: v2
+name: webapp
+description: Um webapp simples para o exemplo de Umbrella Chart.
+type: application
+version: 0.1.0

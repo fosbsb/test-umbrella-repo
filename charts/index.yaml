@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  app-visitantes:
+  - apiVersion: v2
+    created: "2025-07-15T19:42:07.30599527-03:00"
+    dependencies:
+    - name: webapp
+      repository: file://charts/webapp
+      version: 0.1.0
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.19.1
+    description: Umbrella chart para a aplicação de visitantes.
+    digest: 829ee0f126a0950cea6298c73650279d0e0036bd2437fefb35d1f71c1c3e3666
+    name: app-visitantes
+    type: application
+    urls:
+    - https://fosbsb.github.io/test-umbrella-repo/charts/app-visitantes-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-07-15T19:42:07.252759153-03:00"

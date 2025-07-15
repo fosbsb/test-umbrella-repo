@@ -1,0 +1,17 @@
+apiVersion: v2
+name: app-visitantes
+description: Umbrella chart para a aplicação de visitantes.
+type: application
+version: 0.1.0
+
+dependencies:
+# 1. Nosso sub-chart local
+- name: webapp
+  version: "0.1.0"
+  # O caminho 'charts/webapp' diz ao Helm para usar o chart local
+  repository: "file://charts/webapp" 
+
+# 2. O chart do Redis do repositório público do Bitnami
+- name: redis
+  version: "18.19.1" # Use uma versão estável
+  repository: "https://charts.bitnami.com/bitnami"

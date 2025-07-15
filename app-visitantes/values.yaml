@@ -1,0 +1,15 @@
+# Chave 'webapp' corresponde ao nome da dependência no Chart.yaml
+webapp:
+  replicaCount: 3 # Sobrescrevendo o valor padrão (2) do sub-chart webapp
+
+  # Passando a informação correta do serviço Redis para o webapp
+  redis:
+    # O nome do serviço do Redis será 'app-visitantes-redis-master'
+    # Esta é a convenção de nomenclatura do chart do Bitnami: {{ release-name }}-{{ chart-name }}-master
+    host: "app-visitantes-redis-master"
+
+# Chave 'redis' corresponde ao nome da dependência no Chart.yaml
+redis:
+  # Desabilitando o uso de senhas para simplificar o exemplo
+  auth:
+    enabled: false

@@ -1,0 +1,9 @@
+dependencies:
+- name: webapp
+  repository: file://charts/webapp
+  version: 0.1.0
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 18.19.1
+digest: sha256:34943f43ba1606c3292856baadd89182ca1b54abb27dced1887c94f4aa6d06c1
+generated: "2025-07-15T12:06:00.745316575-03:00"

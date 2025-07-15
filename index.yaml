@@ -15,6 +15,6 @@ entries:
     name: app-visitantes
     type: application
     urls:
-    - https://fosbsb.github.io/test-umbrella-repo/charts/app-visitantes-0.1.0.tgz
+    - https://fosbsb.github.io/test-umbrella-repo/app-visitantes-0.1.0.tgz
     version: 0.1.0
 generated: "2025-07-15T19:42:07.252759153-03:00"
